@@ -20,9 +20,6 @@
 #include "Adafruit_BME680.h"
 #include <Adafruit_MLX90614.h>
 
-#define BME_SCK 21
-#define BME_MOSI 20
-
 #define SEALEVELPRESSURE_HPA (1013.25)
 
 Adafruit_BME680 bme(&Wire);  // I2C
@@ -30,8 +27,6 @@ Adafruit_MLX90614 mlx = Adafruit_MLX90614();
 
 void setup() {
   Serial.begin(115200);
-  delay(5000);
-  while (!Serial);
   Serial.println("BME 680 MLX90614 test");
 
   if (!mlx.begin()) {
