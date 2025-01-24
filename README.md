@@ -29,4 +29,12 @@ Also Note: Our code is a modified version of the Adafruit BME680 and MLX90614 ex
 ### Code Contents: 
 * Identification to connect to the online broker
 * Data sampling and transcieving to the broker
-* Sleep cycle 
+* Sleep cycle to conserve power
+
+### Parts List
+
+| Part Name | Part Image | Purchase Link|
+|----------|--------|:-----------------------:|
+|BME 680| <img src="Images/BME680.png" width="225" height = "200"> |[Adafruit](https://www.adafruit.com/product/5046)
+|CubeCellCubeCell Dev-Board Plus (HTCC-AB02)| <img src="Images/Heltec.png" width="350" height = "200"> |[Heltec Automation](https://heltec.org/project/htcc-ab02/)
+|MLX90614-DCI| <img src="Images/MLX90614.png" width="150" height = "150"> |[DFRobot](https://www.dfrobot.com/product-1745.html)
