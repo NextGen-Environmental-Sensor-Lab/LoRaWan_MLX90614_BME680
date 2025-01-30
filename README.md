@@ -1,7 +1,7 @@
 # LoRaWan_MLX90614_BME680_Merge
-Welcome to the NextGen Environmental Sensor Lab. This project uses the capabilites of two varying temperature sensors to sample the nearby environment for analysis. The BME 680 temp. humidity. pressure sensor and the non-contact infared MLX90614 temperature sensor sample the area. Their readings are then sent to an online broker through the use of LoRaWAN technology. Where they are sent to a database or spreadsheet for analysis.  
+Welcome to the NextGen Environmental Sensor Lab. This project uses the capabilites of two varying temperature sensors to sample the nearby environment for analysis. The BME 680 temp. humidity. pressure sensor and the non-contact infared MLX90614 temperature sensor sample the area. Their readings are then sent to an online broker through the use of LoRaWAN technology. 
 
-Below is a general walkthrough to utilize these sensors in the matter stated above. 
+Below is a general walkthrough to utilize these sensors in the manner stated above. 
 
 ## Content
 ### Arduino
@@ -22,16 +22,16 @@ To use the code in the [Arduino](https://github.com/NextGen-Environmental-Sensor
 and the CubeCell Development Framework (by Heltec Automation(TM)) board manager.
 Once installed the code can be used. 
 
-Note: The board used from this board manager is the "CubeCell-Board Plus (HTCC_AB02)".
+Note: The board used from this in this implementation is the "CubeCell-Board Plus (HTCC_AB02)".
 
 Also Note: Our code is a modified version of the Adafruit BME680 and MLX90614 examples in conjunction with LoRaWAN. 
 
 ### Code Contents: 
-* Identification to connect to the online broker
+* Identification requirements needed to connect to the online broker
 * Data sampling and transcieving to the broker
-* Sleep cycle to conserve power
+* A system sleep cycle used to conserve power
 
-### Parts List
+### Parts List (Incomplete)
 
 | Part Name | Part Image | Purchase Link|
 |----------|--------|:-----------------------:|
