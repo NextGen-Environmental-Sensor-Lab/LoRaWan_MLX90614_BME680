@@ -1,6 +1,8 @@
 # Rooftop Garden Heat Sensor
 Welcome to the NextGen Environmental Sensor Lab. This project uses the capabilites of two varying temperature sensors to sample the nearby environment for analysis. The BME 680 temp. humidity. pressure sensor and the non-contact infared MLX90614 temperature sensor sample the area. Their readings are then sent to an online broker through the use of LoRaWAN technology. 
 
+<img src="Fritzing/RooftopSensors.png" width="450" height = "300">
+
 Below is a general walkthrough to utilize these sensors in the manner stated above. 
 
 ## Content
